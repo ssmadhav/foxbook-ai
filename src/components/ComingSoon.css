@@ -1,0 +1,46 @@
+.coming-soon {
+  position: relative;
+  padding: 140px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cs-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.cs-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, var(--color-bg), rgba(10, 25, 47, 0.7), var(--color-bg));
+  z-index: 2;
+}
+
+.cs-container {
+  position: relative;
+  z-index: 3;
+  max-width: 800px;
+}
+
+.cs-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.cs-desc {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  margin-bottom: 48px;
+}

@@ -1,0 +1,6 @@
+/* App.css is mostly reset as index.css handles globals */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
